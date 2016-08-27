@@ -42,4 +42,30 @@
   {% else %}
     <p>We are still in preparation-mode. Signing up will be possible as soon as possible 😊</p>
   {% endif %}
+
+  {% if this.contacts %}
+  <section id="contacts">
+    <h2>Contacts</h2>
+    {% set infopoints = [('email', 'e-mail'), ('url', 'www'), ('twitter', 'twitter')] %}
+    <ul>
+      {% for contact in this.contacts.blocks %}
+      <li>{{ contact.name }}:
+          {% set inforendered = False %}
+          {% for point, label in infopoints -%}
+            {% if contact[point] and contact[point]|string -%}
+              {% if inforendered %}, {% endif %}{% set inforendered = True %}
+              {% if point == 'twitter' -%}
+                <a href="https://twitter.com/{{ contact[point] }}">{{ label }}</a>
+              {% elif point == 'email' %}
+                <a href="mailto:{{ contact[point] }}">{{ label }}</a>
+              {% else %}
+                <a href="{{ contact[point] }}">{{ label }}</a>
+              {%- endif %}
+            {%- endif %}
+          {%- endfor %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
 {% endblock %}
