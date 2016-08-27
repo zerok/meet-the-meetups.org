@@ -1,0 +1,47 @@
+_model: event
+---
+title: Graz 2015
+---
+_template: event.html
+---
+start: 2015-08-21 13:00
+---
+groups:
+
+#### group ####
+name: GrazJS
+----
+url: http://www.meetup.com/grazjs/events/223488039/
+#### group ####
+name: Java User Group Graz
+----
+url: http://www.meetup.com/Java-User-Group-Graz/events/223498825/
+#### group ####
+name: PyGraz
+----
+url: http://www.meetup.com/PyGRAZ/events/224759435/
+#### group ####
+name: Scrum User Group Graz
+----
+url: http://www.meetup.com/Scrum-User-Group-Graz/events/223489786/
+#### group ####
+name: UXability Graz
+----
+url: http://www.meetup.com/UXability-Graz/events/223572359/
+---
+location: Netconomy Software & Consulting Gmbh., Hilmgasse 4, 8010 Graz
+---
+_hidden: no
+---
+body:
+
+Welcome to our very first Meet The Meetups event! The goal is to provide a nice and relaxed platform during the summer months for various technical meetups in Graz to get together, get to know each other, and exchange ideas. 
+
+There is probably no better way for that than with a BBQ on a roof-top! Thankfully, Netconomy is providing their terrace for the event. Food and drinks will be provided!
+---
+after_action_report:
+
+Everybody, thank you for coming! Nearly 40 people showed up! Here a list of posts about the event:
+
+* [On zerokspot.com](https://zerokspot.com/weblog/2015/08/24/this-was-meetthemeetups/)
+* [Netconomy](https://www.netconomy.net/meet-the-meetups/)

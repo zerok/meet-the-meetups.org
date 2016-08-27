@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<title>{% block title %}Welcome{% endblock %} — Meet The Meetups</title>
+<body>
+  <div class="page">
+    {% block body %}{% endblock %}
+    {% if this.path == '/' %}
+        {% set events = site.get('/events/').children.order_by('-start') %}
+        {% if events %}
+        <p>Below you can find a list of all the events in this series over the years:</p>
+        <ul class="eventlisting">
+            {% for event in events %}
+            <li><a href="{{ event|url }}">{{ event.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% endif %}
+  </div>
+</body>

@@ -1,0 +1,69 @@
+html {font-size: 62.5%;}
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 50px 25px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+a {
+    color: #0080C5;
+}
+
+.page {
+    max-width: 760px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.event__location {
+    padding: 1rem;
+    background: #EFEFEF;
+    border: 1px solid #DFDFDF;
+}
+
+.event__location p {
+    margin: 0.2rem 0;
+}
+
+.event__location p:first-child {
+    font-weight: bold;
+}
+
+.event__start span {
+    display: block;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.eventdetails {
+    padding: 2rem 0;
+    display: flex;
+}
+
+.event__start {
+    flex: 1;
+    padding: 0.5rem;
+    background: #0080C5;
+    color: #FFFFFF;
+}
+
+.event__location {
+    flex: 4;
+    margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+    .eventdetails {
+        display: block;
+    }
+    .event__location {
+        margin-left: 0;
+        border: none;
+    }
+}

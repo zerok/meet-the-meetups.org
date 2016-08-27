@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h1><a href="{{ site.get('/')|url }}">Meet The Meetups</a> in {{ this.title }}</h1>
+
+  <div class="eventdetails">
+  {% if this.start %}
+  <div class="event__start">
+    <span class="event__start__day">{{ this.start.strftime('%A, %d %b')}}</span>
+    <span class="event__start__time">{{ this.start.strftime('%H:%M')}}</span>
+  </div>
+  {% endif %}
+
+  {% if this.location %}
+  <div class="event__location">
+      <p>You can find us here:</p>
+      {{ this.location }}
+  </div>
+  {% endif %}
+  </div>
+
+  {{ this.body }}
+
+  {% if this.after_action_report %}
+  <div class="event__report">{{ this.after_action_report }}</div>
+  {% endif %}
+
+  {% if this.groups %}
+    {% if not this.after_action_report %}
+    <p>
+      If you want to come, please sign up through one of the following
+      user-groups:
+    </p>
+    {% else %}
+    <p>A big <strong>THANK YOU</strong> to the following user groups through which the sign-up was handled:</p>
+    {% endif %}
+    <ul>
+    {% for group in this.groups.blocks %}
+      <li class="event__group"><a href="{{ group.url }}">{{ group.name }}</a></li>
+    {% endfor %}
+    </ul>
+  {% else %}
+    <p>We are still in preparation-mode. Signing up will be possible as soon as possible 😊</p>
+  {% endif %}
+{% endblock %}
