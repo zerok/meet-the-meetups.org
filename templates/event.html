@@ -36,7 +36,9 @@
     {% endif %}
     <ul>
     {% for group in this.groups.blocks %}
-      <li class="event__group"><a href="{{ group.url }}">{{ group.name }}</a></li>
+    <li class="event__group"><a href="{{ group.url }}">{{ group.name }}</a>
+        {% if group.rsvps and group.rsvps['yes'] %}<span class="event__group__rsvps">({{ group.rsvps['yes'] }} RSVPs{% if group.rsvps['limit'] %} of max {{ group.rsvps['limit'] }}{% endif %})</span>{% endif %}
+    </li>
     {% endfor %}
     </ul>
   {% else %}

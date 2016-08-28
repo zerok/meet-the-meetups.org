@@ -58,6 +58,12 @@ h1 {
     margin-left: 1rem;
 }
 
+.event__group__rsvps {
+    font-size: 1.2rem;
+    color: #AAA;
+    font-style: italic;
+}
+
 @media (max-width: 600px) {
     .eventdetails {
         display: block;
