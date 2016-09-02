@@ -40,3 +40,15 @@ groups:
 name: PyGRAZ
 ----
 url: https://www.meetup.com/PyGRAZ/events/233822078/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+#### group ####
+name: Security Treff Graz (STG)
+----
+url: http://michael-prokop.at/stg/
+----
+rsvps_yes: 1
+----
+rsvps_limit: 10
