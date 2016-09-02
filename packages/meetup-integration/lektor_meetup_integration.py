@@ -72,7 +72,6 @@ class MeetupIntegrationPlugin(Plugin):
         cache_key = u'{}:{}'.format(group_name, event_id)
         result = self.rsvp_cache.get(cache_key)
         now = datetime.datetime.utcnow()
-        # TODO: Implement cache TTL
         if result is not None:
             ts = datetime.datetime.utcfromtimestamp(result['_ts'])
             if not cached_only and ts + datetime.timedelta(minutes=10) > now:
