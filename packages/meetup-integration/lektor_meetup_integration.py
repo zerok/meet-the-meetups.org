@@ -19,7 +19,6 @@ class MeetupIntegrationPlugin(Plugin):
     rsvp_cache = {}
 
     def on_setup_env(self, **extra):
-        print("Setting up Meetup.com integration")
         key = os.environ.get('MEETUP_API_KEY')
         if not key:
             print("No MEETUP_API_KEY found. Not importing data")
@@ -35,7 +34,14 @@ class MeetupIntegrationPlugin(Plugin):
                 now = datetime.datetime.now()
                 if source['groups']:
                     for group in source['groups'].blocks:
-                        group._data['rsvps'] = self._get_reservations(unicode(group['url']), cached_only=(start >= now))
+                        url = unicode(group._data.get('url', ''))
+                        if 'https://www.meetup.com' in url:
+                            group._data['rsvps'] = self._get_reservations(url, cached_only=(start >= now))
+                        else:
+                            group._data['rsvps'] = {
+                                'yes': group['rsvps_yes'],
+                                'limit': group['rsvps_limit'],
+                            }
         self._save_rsvp_cache()
 
     def on_process_template_context(self, context, **extra):
