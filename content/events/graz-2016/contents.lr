@@ -44,6 +44,8 @@ url: https://www.meetup.com/PyGRAZ/events/233822078/
 rsvps_yes: 
 ----
 rsvps_limit: 
+----
+notes: 
 #### group ####
 name: Security Treff Graz (STG)
 ----
@@ -52,6 +54,8 @@ url: http://michael-prokop.at/stg/
 rsvps_yes: 1
 ----
 rsvps_limit: 10
+----
+notes: 
 #### group ####
 name: Scrum User Group Graz
 ----
@@ -60,6 +64,8 @@ url: https://www.meetup.com/Scrum-User-Group-Graz/events/233844447/
 rsvps_yes: 
 ----
 rsvps_limit: 
+----
+notes: 
 #### group ####
 name: Functional Programming Graz
 ----
@@ -68,6 +74,8 @@ url: https://www.meetup.com/Functional-Programming-Graz/events/233872814/
 rsvps_yes: 
 ----
 rsvps_limit: 
+----
+notes: 
 #### group ####
 name: GrazJS
 ----
@@ -76,6 +84,8 @@ url: https://www.meetup.com/grazjs/events/233884019/
 rsvps_yes: 
 ----
 rsvps_limit: 
+----
+notes: 
 #### group ####
 name: UX Graz
 ----
@@ -84,6 +94,8 @@ url: https://uxgraz.iicm.tugraz.at/
 rsvps_yes: 1
 ----
 rsvps_limit: 6
+----
+notes: Please contact the organiser of UX Graz for details.
 #### group ####
 name: Java User Group Graz
 ----
@@ -92,3 +104,5 @@ url: https://www.meetup.com/Java-User-Group-Graz/
 rsvps_yes: 
 ----
 rsvps_limit: 
+----
+notes: Sign-up should be available later this week.
