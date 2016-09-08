@@ -60,3 +60,35 @@ url: https://www.meetup.com/Scrum-User-Group-Graz/events/233844447/
 rsvps_yes: 
 ----
 rsvps_limit: 
+#### group ####
+name: Functional Programming Graz
+----
+url: https://www.meetup.com/Functional-Programming-Graz/events/233872814/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+#### group ####
+name: GrazJS
+----
+url: https://www.meetup.com/grazjs/events/233884019/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+#### group ####
+name: UX Graz
+----
+url: https://uxgraz.iicm.tugraz.at/
+----
+rsvps_yes: 1
+----
+rsvps_limit: 6
+#### group ####
+name: Java User Group Graz
+----
+url: https://www.meetup.com/Java-User-Group-Graz/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
