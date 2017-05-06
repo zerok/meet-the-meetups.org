@@ -17,7 +17,6 @@ Meetup group sessions (3-4 in parallel in meeting rooms):
 * 03:45 p.m.: 2nd round of 20 min talks
 * 04:20 p.m. - 7 p.m.: BBQ and drinks
 
-We are currently in contact with multiple local meetup groups to organise the registration process. Stay tuned for updates 🙂
 ---
 contacts:
 
@@ -43,3 +42,36 @@ location: Netconomy Software & Consulting GmbH., Hilmgasse 4, 8010 Graz
 start: 2017-09-15 14:30
 ---
 google_maps_location: Netconomy Software & Consulting GmbH., Hilmgasse 4, 8010 Graz
+---
+groups:
+
+#### group ####
+name: Chatbot-Stammtisch
+----
+url: https://www.meetup.com/Chatbot-Stammtisch-Graz/events/239751096/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
+#### group ####
+name: GrazJS
+----
+url: https://www.meetup.com/grazjs/events/239749865/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
+#### group ####
+name: Infracoders Graz
+----
+url: https://www.meetup.com/Infracoders-Graz/events/239503235/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
