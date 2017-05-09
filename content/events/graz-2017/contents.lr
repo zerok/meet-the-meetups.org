@@ -75,3 +75,23 @@ rsvps_yes:
 rsvps_limit: 
 ----
 notes: 
+#### group ####
+name: Functional Programming Graz
+----
+url: https://www.meetup.com/Functional-Programming-Graz/events/239833336/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
+#### group ####
+name: Java Usergroup Graz
+----
+url: https://www.meetup.com/Java-User-Group-Graz/events/239831583/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
