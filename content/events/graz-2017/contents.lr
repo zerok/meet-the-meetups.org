@@ -95,3 +95,23 @@ rsvps_yes:
 rsvps_limit: 
 ----
 notes: 
+#### group ####
+name: GoGraz
+----
+url: https://www.meetup.com/Graz-Open-Source-Meetup/events/241823098/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
+#### group ####
+name: Python Usergroup Graz
+----
+url: https://www.meetup.com/PyGRAZ/events/242817786/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
