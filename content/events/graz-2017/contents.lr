@@ -115,3 +115,23 @@ rsvps_yes:
 rsvps_limit: 
 ----
 notes: 
+#### group ####
+name: Scrum User Group Graz
+----
+url: https://www.meetup.com/Scrum-User-Group-Graz/events/240358094/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
+#### group ####
+name: BlockchainHub Graz
+----
+url: https://www.meetup.com/BlockchainHub-Graz/events/240010233/
+----
+rsvps_yes: 
+----
+rsvps_limit: 
+----
+notes: 
