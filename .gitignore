@@ -2,3 +2,4 @@
 /_meetup_rsvp_cache.json
 /.env
 /_deploy.sh
+/assets/whitelist.txt
